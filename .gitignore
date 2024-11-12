@@ -7,3 +7,12 @@ tfplan*
 
 # Terraform lock file override. We need to add this file to maintain the provider dependencies
 !.terraform.lock.hcl
+
+# Ignore environment variables
+.env
+
+# Ignore JSON files that may contain sensitive data
+*.json
+
+# Ignore any specific file like Jenkinsfile containing secrets
+Jenkinsfile
