@@ -14,5 +14,3 @@ tfplan*
 # Ignore JSON files that may contain sensitive data
 *.json
 
-# Ignore any specific file like Jenkinsfile containing secrets
-Jenkinsfile
